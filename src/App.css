@@ -1,38 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
-  text-align: center;
+  width: 100%;
+  /* background: url("/public/img/background.webm");
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mySwiper .swiper-pagination-bullet {
+  height: 10px;
+  width: 10px;
+  background-color: #e5ff0067;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.mySwiper .swiper-pagination-bullet-active {
+  background-color: #e6ff00;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Helvetica";
+    src: url("/public/font/Helvetica.ttf");
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  @font-face {
+    font-family: "HelveticaBold";
+    font-style: bold;
+    src: url("/public/font/Helvetica-Bold.ttf");
   }
-  to {
-    transform: rotate(360deg);
+  @font-face {
+    font-family: "HelveticaLight";
+    font-style: light;
+    src: url("/public/font/Helvetica-Light.ttf");
+  }
+  @font-face {
+    font-family: "HelveticaItalic";
+    font-style: italic;
+    src: url("/public/font/Helvetica-Italic.ttf");
+  }
+  @font-face {
+    font-family: "HelveticaBoldItalic";
+    font-style: bold italic;
+    src: url("/public/font/Helvetica-Bold-Italic.ttf");
+  }
+  @font-face {
+    font-family: "HelveticaRoundedBold";
+    font-style: light italic;
+    src: url("/public/font/Helvetica-Rounded-Bold.otf");
   }
 }
