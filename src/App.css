@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  width: 100%;
+  /* background: url("/public/img/background.webm");
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed; */
+}
+
+.mySwiper .swiper-pagination-bullet {
+  height: 10px;
+  width: 10px;
+  background-color: #e5ff0067;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+  background-color: #e6ff00;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Helvetica";
+    src: url("/public/font/Helvetica.ttf");
+  }
+  @font-face {
+    font-family: "HelveticaBold";
+    font-style: bold;
+    src: url("/public/font/Helvetica-Bold.ttf");
+  }
+  @font-face {
+    font-family: "HelveticaLight";
+    font-style: light;
+    src: url("/public/font/Helvetica-Light.ttf");
+  }
+  @font-face {
+    font-family: "HelveticaItalic";
+    font-style: italic;
+    src: url("/public/font/Helvetica-Italic.ttf");
+  }
+  @font-face {
+    font-family: "HelveticaBoldItalic";
+    font-style: bold italic;
+    src: url("/public/font/Helvetica-Bold-Italic.ttf");
+  }
+  @font-face {
+    font-family: "HelveticaRoundedBold";
+    font-style: light italic;
+    src: url("/public/font/Helvetica-Rounded-Bold.otf");
+  }
+}
