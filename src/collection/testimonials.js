@@ -119,30 +119,6 @@ const testimonials = [
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt iste nobis eaque eveniet voluptate debitis aut unde quidem incidunt officia.",
     imgUrl: "/img/testimonials/testimonial2.jpg",
   },
-  {
-    id: 16,
-    name: "Sadie Sink",
-    profession: "CEO",
-    message:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt iste nobis eaque eveniet voluptate debitis aut unde quidem incidunt officia.",
-    imgUrl: "/img/testimonials/testimonial1.jpg",
-  },
-  {
-    id: 17,
-    name: "Sadie Sink",
-    profession: "Enteprenuer",
-    message:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt iste nobis eaque eveniet voluptate debitis aut unde quidem incidunt officia.",
-    imgUrl: "/img/testimonials/testimonial1.jpg",
-  },
-  {
-    id: 18,
-    name: "John Snow",
-    profession: "Co-founder",
-    message:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt iste nobis eaque eveniet voluptate debitis aut unde quidem incidunt officia.",
-    imgUrl: "/img/testimonials/testimonial2.jpg",
-  },
 ];
 
 export default testimonials;
